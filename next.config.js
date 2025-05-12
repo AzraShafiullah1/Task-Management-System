@@ -5,4 +5,15 @@ const nextConfig = {
   },
 };
 
+// next.config.js (example)
+module.exports = {
+  swcMinify: true,
+  experimental: {
+    enableTracing: true
+  }
+}
+
+
+
+
 module.exports = nextConfig;
